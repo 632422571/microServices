@@ -148,9 +148,9 @@ public class UserMessageService {
         System.out.println(JSON.parseObject(new String(ub),User.class).getName());
     }
 
-    @EventListener
+    /*@EventListener
     public void onRefreshRemoteApplicationEvent(RefreshRemoteApplicationEvent event) {
         User user = (User) event.getSource();
         userService.saveUser(user);
-    }
+    }*/
 }

@@ -95,7 +95,7 @@ public class UserServiceProviderController implements UserService {
 
 
     @GetMapping("/user/list")
-    public Collection<User> getUsers() throws InterruptedException {
+    public List<User> getUsers() throws InterruptedException {
 
         long executeTime = random.nextInt(200);
 
